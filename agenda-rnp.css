@@ -1,0 +1,384 @@
+[data-aura-class="LTEEventAgenda"] .slds-event--pane.slds-p-horizontal_large {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+[data-aura-class="LTEEventAgenda"] .slds-grid.slds-grid--vertical.slds-p-horizontal_small {
+    padding: 0px;
+}
+[data-name="agendaSectionDate"] lightning-icon.slds-button--icon-inverse.slds-icon_container.slds-icon-utility-chevrondown {
+    right: -6px;
+    top: 14px;
+}
+[data-name="agendaSectionDate"] lightning-icon.slds-button--icon-inverse.slds-icon_container.slds-icon-utility-chevronright {
+    right: -6px;
+    top: 14px;
+}
+
+[data-aura-class="LTEEventAgenda"] .slds-p-horizontal_x-small.slds-size--1-of-1.slds-medium-size--4-of-5.slds-grid.slds-wrap {
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+    font-size: 0 !important;
+}
+[data-aura-class="LTEEventAgendaSectionItem"] .slds-size_1-of-1.slds-medium-size_1-of-2 {
+    width: 100%;
+}
+
+[data-aura-class="LTEEventAgenda"] .slds-grid.slds-grid_pull-padded-x-small.slds-wrap {
+    display: grid;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+[data-aura-class="LTEEventAgenda"] h3::after {
+    margin-top: -20px;
+}
+
+
+
+/*body:not(.clear) {
+    background-color: #000;
+}
+.widgets-events.pfm-event-page-body.LTEEventPage {
+    background-image: url(https://s3.us-east-1.amazonaws.com/fonteva-customer-media/00D41000001NkaUEAS/SQheuQko_RNP_2024_Agenda_240124_agendapng_png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top 330px right 0px;
+}*/
+[data-aura-class="LTEEventAgendaSection"] {
+    width: 33.33%;
+    display: inline-grid;
+    padding: 0px 20px;
+}
+.LTEEventAgenda *.slds-collapse-section-title {
+    border-radius: 0px;
+    background: #FFD600;
+    display: flex;
+    padding: 5px 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+}
+[data-name="agendaSectionDate"] {
+    background: #ffd6008c;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+[data-name="agendaSectionDate"] button.pfm-button.pfm-button_bare-inverse.slds-collapse-section-title.fonteva-slds-schedule-item-header.slds-p-left--small.slds-text-heading--small.slds-font-weight--semi-bold.slds-m-bottom--xx-small.left {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(1) > lte-pfm-button > button > span {
+    color: #000;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(1) > lte-pfm-button > button > span {
+    font-size: 0px;
+    text-align: center;
+    width: 100%;
+}
+html:not([lang="en-US"]) #content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(1) > lte-pfm-button > button > span::before {
+    content: "MARTES";
+    font-weight: normal;
+    font-size: 26px;
+    visibility: visible;
+}
+html:not([lang="en-US"]) #content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(1) > lte-pfm-button > button > span::after {
+    content: "2 JULIO";
+    font-size: 31px;
+    visibility: visible;
+    font-weight: bolder;
+    margin-top: -5px;
+}
+html:not([lang="es-MX"]) #content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(1) > lte-pfm-button > button > span::before {
+    content: "TUESDAY";
+    font-weight: normal;
+    font-size: 26px;
+    visibility: visible;
+}
+html:not([lang="es-MX"]) #content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(1) > lte-pfm-button > button > span::after {
+    content: "JULY 2nd";
+    font-size: 31px;
+    visibility: visible;
+    font-weight: bolder;
+    margin-top: -5px;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(2) > lte-pfm-button > button > span {
+    font-size: 0px;
+    text-align: center;
+    width: 100%;
+}
+html:not([lang="en-US"]) #content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(2) > lte-pfm-button > button > span::before {
+    content: "MIÉRCOLES";
+    font-size: 26px;
+    font-weight: normal;
+}
+html:not([lang="en-US"]) #content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(2) > lte-pfm-button > button > span::after {
+    content: "3 JULIO";
+    font-size: 31px;
+    visibility: visible;
+    font-weight: bolder;
+    margin-top: -5px;
+}
+html:not([lang="es-MX"]) #content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(2) > lte-pfm-button > button > span::before {
+    content: "WEDNESDAY";
+    font-size: 26px;
+    font-weight: normal;
+}
+html:not([lang="es-MX"]) #content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(2) > lte-pfm-button > button > span::after {
+    content: "JULY 3rd";
+    font-size: 31px;
+    visibility: visible;
+    font-weight: bolder;
+    margin-top: -5px;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(3) > lte-pfm-button > button > span {
+    font-size: 0px;
+    text-align: center;
+    width: 100%;
+}
+html:not([lang="en-US"]) #content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(3) > lte-pfm-button > button > span::before {
+    content: "JUEVES";
+    font-size: 26px;
+    font-weight: normal;
+    padding: 0 40px;
+}
+html:not([lang="en-US"]) #content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(3) > lte-pfm-button > button > span::after {
+    content: "4 JULIO";
+    font-size: 31px;
+    visibility: visible;
+    font-weight: bolder;
+    margin-top: -5px;
+}
+html:not([lang="es-MX"]) #content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(3) > lte-pfm-button > button > span::before {
+    content: "THURSDAY";
+    font-size: 26px;
+    font-weight: normal;
+}
+html:not([lang="es-MX"]) #content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(3) > lte-pfm-button > button > span::after {
+    content: "JULY 4th";
+    font-size: 31px;
+    visibility: visible;
+    font-weight: bolder;
+    margin-top: -5px;
+}
+[data-aura-class="LTEEventAgenda"] [data-name="start_end_time"] {
+    display: none;
+}
+[data-name="agendaSectionDate"] lightning-icon.slds-button--icon-inverse.slds-icon_container.slds-icon-utility-chevrondown {
+    display: none;
+}
+[data-aura-class="LTEEventAgenda"] [data-name="item-name"] {
+    color: #2B173A;
+    font-weight: 600;
+    font-weight: 800;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    display: none;
+}
+p.agenda-hora {
+    font-size: 17px;
+    font-family: 'Arial', sans-serif;
+    color: #212121;
+    font-weight: 300;
+}
+[data-name="item-description"] p {
+    padding: 0px;
+}
+#a-signo {
+    display: flex;
+}
+p.a-title {
+    color: #2B173A;
+    font-weight: 800;
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    width: 84%;
+    padding: 0 13px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p.a-title-c {
+    color: #2B173A;
+    font-weight: 800;
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p.a-title-c3 {
+    color: #2B173A;
+    font-weight: 800;
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;
+}
+p.agenda-hora-c3 {
+    font-size: 13px;
+    font-family: 'Arial', sans-serif;
+    color: #212121;
+    font-weight: 300;
+}
+.a-signo::before {
+    content: url(https://s3.us-east-1.amazonaws.com/fonteva-customer-media/00D41000001NkaUEAS/aaaAsOke_agenda_icon_svg);
+    width: 20px;
+    position: absolute;
+    margin-left: 10px;
+}
+.LTEEventAgendaSectionItem.slds-session--container {
+    border-bottom: 1.5px dashed #000;
+}
+[data-aura-class="LTEEventAgenda"].LTEEventAgenda .slds-collapse-section-content {
+    background: #f2f2f2;
+    padding-top: 70px;
+    border-radius: 20px;
+    margin-top: -60px;
+    padding-bottom: 0;
+}
+/*section#t-nacional {
+    padding: 0;
+    margin-top: -80px;
+}*/
+#t-nacional p {
+    font-size: 16px;
+    font-weight: 600;
+}
+section#agenda-txt-footer {
+    margin-top: -106px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+#agenda-txt p {
+    font-weight: 900;
+    font-size: 22px;
+    font-family: 'Arial', sans-serif;
+    padding: 5px 0;
+    background-color: #ffd600;
+    border-radius: 10px;
+    text-align: center;
+    color: #000 !important;
+}
+
+@media screen and (max-width: 768px) {
+    [data-aura-class="LTEEventAgendaSection"] {
+        width: 100%;
+        display: flow;
+    }
+}
+/*two items*/
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(2) > div > div > div:nth-child(7) {
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(2) > div > div > div:nth-child(17) {
+    margin-bottom: 0;
+    order: 2;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(2) > div > div > div:nth-child(17) {
+    width: 60%;
+    padding-top: 20px;
+    border-left: 1.5px dashed #000;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(2) > div > div > div:nth-child(11) {
+    width: 50%;
+    padding-top: 20px;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(2) > div > div > div:nth-child(13) {
+    width: 50%;
+    padding-top: 20px;
+    border-left: 1.5px dashed #000;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(2) > div > div > div:nth-child(19) {
+    order: 1;
+    width: 40%;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(2) > div > div > div:nth-child(21) {
+    display:none;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(2) > div > div > div:nth-child(3) > div > div > div.slds-size--1-of-1.slds-grid.slds-wrap > div:nth-child(1) > div.slds-text-heading--small.slds-font-weight--semi-bold.slds-m-bottom--xx-small.fonteva-slds-text.slds-max-medium_p-top_small {
+    padding: 0 13px;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(2) > div > div > div:nth-child(15) {
+    margin-bottom: 0px;
+}
+/*Break*/
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(2) > div > div > div:nth-child(5) > div > div {
+    background: #e0e0e0;
+    border-bottom: 0px;
+    padding: 0;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(1) > div > div > div:nth-child(7) {
+    background: #e0e0e0;
+    border-bottom: 0px;
+    padding: 0;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(3) > div > div > div:nth-child(5) {
+    background: #e0e0e0;
+    border-bottom: 0px;
+    padding: 0;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(3) > div > div > div:nth-child(11) {
+    background: #e0e0e0;
+    border-bottom: 0px;
+    padding: 0;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(2) > div > div > div:nth-child(9) {
+    background: #e0e0e0;
+    border-bottom: 0px;
+    padding: 0;
+    margin-bottom: 0;
+}
+/*NoBorder*/
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(1) > div > div > div:nth-child(5) {
+    border-bottom: 0;
+    margin: 0;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(2) > div > div > div:nth-child(3) {
+    border-bottom: 0;
+    margin: 0;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(3) > div > div > div:nth-child(3) {
+    border-bottom: 0;
+    margin: 0;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(3) > div > div > div:nth-child(9) {
+    border-bottom: 0;
+    margin: 0;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(1) > div > div > div:nth-child(17) {
+    border-bottom: 0;
+    margin: 0;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(2) > div > div > div:nth-child(19) {
+    border-bottom: 0;
+    margin: 0;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(3) > div > div > div:nth-child(17) {
+    border-bottom: 0;
+    margin: 0;
+    padding: 20px 0;
+    padding-bottom: 30px;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(2) > div > div > div:nth-child(21) {
+    border-bottom: 0;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(2) > div > div > div:nth-child(17) {
+    border-bottom: 0;
+}
+#content > div:nth-child(2) > div > div > div > div.slds-size--1-of-1.slds-event--panes.fonteva-event-component.LTEEventAgenda > div > div > div > div > div:nth-child(4) > div > div > div:nth-child(1) > div > div > div:nth-child(13) {
+    border-bottom: 0;
+    padding: 35px 0;
+}
