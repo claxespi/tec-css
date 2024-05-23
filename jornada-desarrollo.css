@@ -1,0 +1,112 @@
+/*Jornada de desarrollo*/
+.cEVE_ScheduleCmp {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.scheduleMain.cEVE_ScheduleCmp {
+    z-index: 1;
+    position: relative;
+    padding: 100px 0;
+}
+.scheduleImagen {
+    display: none;
+}
+.pfm .slds-is-open > .slds-accordion__content {
+    overflow-y: scroll;
+    height: 330px;
+}
+.pfm .slds-is-open > .slds-accordion__content::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 50px;
+    background: #808080;
+}
+.pfm .slds-is-open > .slds-accordion__content::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 50px;
+    background: #333333;
+}
+.pfm .slds-is-open > .slds-accordion__content::-webkit-scrollbar {
+    width: 18px;
+}
+.scheduleSeccTrack {
+    padding: 5px 10px;
+    font-size: 12px;
+    color: #fff;
+}
+.scheduleItemCss {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 500;
+}
+.scheduleSectionDate {
+    color: #fff;
+}
+div.slds-size_6-of-12 > div:nth-child(5) {
+    font-size: 12px;
+}
+.scheduleSectionLink a {
+    background: grey;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+/*#content > div:nth-child(2) > div > div > div > div.scheduleMain.cEVE_ScheduleCmp > div:nth-child(4) > ul > li:nth-child(1) {
+    display: none;
+}
+#content > div:nth-child(2) > div > div > div > div.scheduleMain.cEVE_ScheduleCmp > div:nth-child(4) > ul > li:nth-child(2) {
+    display: none;
+}
+#content > div:nth-child(2) > div > div > div > div.scheduleMain.cEVE_ScheduleCmp > div:nth-child(4) > ul > li:nth-child(3) {
+    display: none;
+}*/
+.scheduleSection {
+    padding-top: 20px;
+}
+.scheduleSection .slds-size_6-of-12 {
+    border-bottom: .1px solid #fff;
+    padding-bottom: 30px;
+}
+div.slds-size_6-of-12 > div:nth-child(3) {
+    color: #e51c24;
+    font-weight: 600;
+}
+.scheduleSpaceFields {
+    display: none;
+}
+
+div.c-container > div > div:nth-child(1) {
+    display: contents;
+}
+div.c-container > div > div:nth-child(1) > div {
+    height: 40px;
+    visibility: hidden;
+    text-align: left;
+}
+div.c-container > div > div:nth-child(1) > div::before {
+    visibility: visible;
+    content: 'Mostrar todos';
+}
+/*Agenda Menu*/
+#agenda-menu .menu a {
+    color: #808080;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+#agenda-menu .menu a:hover {
+    color: #00bdfb;
+}
+#agenda-menu .menu {
+    border-right: 1px solid white;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+#agenda-menu .none {
+    border-right: 0px;
+}
+.cEVE_ScheduleCmp .custom-box:hover {
+    color: #808080;
